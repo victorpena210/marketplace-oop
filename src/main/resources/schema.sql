@@ -47,6 +47,13 @@ CREATE TABLE order_items (
       ON DELETE RESTRICT ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
+
+-- SEED USERS
+
+INSERT INTO users (email, password, full_name) VALUES
+  ('demo@example.com', 'password123', 'Demo User');
+
+
 -- SEED PRODUCTS
 INSERT INTO products (id, name, category, price) VALUES
   (1,'Hardwood Oak Suffolk Internal Door','Doors',109.99),
