@@ -1,0 +1,4 @@
+com/example/marketplace/model/Product.class
+com/example/marketplace/model/OrderItem.class
+com/example/marketplace/model/Order.class
+com/example/marketplace/model/User.class
