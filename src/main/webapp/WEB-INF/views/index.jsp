@@ -7,7 +7,7 @@
 <h1>Marketplace Skeleton is running ✅</h1>
 <p><a href="${pageContext.request.contextPath}/products">View products</a></p>
 <p><a href="${pageContext.request.contextPath}/register">Register</a></p>
-  <p><a href="${pageContext.request.contextPath}/login">Login</a></p> |
+<p><a href="${pageContext.request.contextPath}/login">Login</a></p>
 
 
 </body>
